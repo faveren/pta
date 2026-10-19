@@ -2,7 +2,7 @@
 
 Framing is unspecified by PTA. Two interoperable modes are supported:
 * LF-delimited requests: replies OK/NOK/ARQS are LF-delimited.
-* Legacy professor client: no LF in requests; short idle-gap heuristic
+* Legacy pta client: no LF in requests; short idle-gap heuristic
   determines request completion; text replies have NO trailing LF.
 ARQ in BOTH modes: ASCII 'SEQ ARQ SIZE ' + exactly SIZE file bytes.
 No bytes are appended to a transferred file.
