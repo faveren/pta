@@ -6,21 +6,21 @@ This project implements a TCP-based file transfer server in Python, following th
 
 The server supports:
 
-        'a.' Client authentication (CUMP)
+        a. Client authentication (CUMP)
 
-        *b.* Listing available files (LIST)
+        b. Listing available files (LIST)
 
-        *c.* File retrieval (PEGA)
+        c. File retrieval (PEGA)
 
-        *d.* Connection termination (TERM)
+        d. Connection termination (TERM)
 
-        *e.* Sequence-number validation
+        e. Sequence-number validation
 
-        *f.* Error handling using NOK
+        f. Error handling using NOK
 
-        *g.* Binary file transfer
+        g. Binary file transfer
 
-        *h.* Multiple simultaneous client connections
+        h. Multiple simultaneous client connections
 
 The implementation is located in the pta-server directory of the forked repository.
 
