@@ -50,7 +50,9 @@ Alternatively, clone the repository using Git:
 
 Open a terminal in the repository's root directory, where pta-client.py is located.
 
-Start the server: **python .\pta-server\faveren-server.py**
+Start the server: 
+
+        **python .\pta-server\faveren-server.py**
 
 Expected output: **PTA listening on 127.0.0.1:11550**
 
@@ -87,15 +89,15 @@ Ensure that this directory contains pta-client.py.
 
 *Test with user1*
 
-**python .\pta-client.py 127.0.0.1 11550 user1**
+        **python .\pta-client.py 127.0.0.1 11550 user1**
 
 *Test with user2*
 
-**python .\pta-client.py 127.0.0.1 11550 user2**
+        **python .\pta-client.py 127.0.0.1 11550 user2**
 
 *Test with user3*
 
-**python .\pta-client.py 127.0.0.1 11550 user3**
+        **python .\pta-client.py 127.0.0.1 11550 user3**
 
 The authorized usernames are read directly from: **pta-server/users.txt**
 
