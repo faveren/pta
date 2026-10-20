@@ -6,21 +6,21 @@ This project implements a TCP-based file transfer server in Python, following th
 
 The server supports:
 
-*a.* Client authentication (CUMP)
+        *a.* Client authentication (CUMP)
 
-*b.* Listing available files (LIST)
+        *b.* Listing available files (LIST)
 
-*c.* File retrieval (PEGA)
+        *c.* File retrieval (PEGA)
 
-*d.* Connection termination (TERM)
+        *d.* Connection termination (TERM)
 
-*e.* Sequence-number validation
+        *e.* Sequence-number validation
 
-*f.* Error handling using NOK
+        *f.* Error handling using NOK
 
-*g.* Binary file transfer
+        *g.* Binary file transfer
 
-*h.* Multiple simultaneous client connections
+        *h.* Multiple simultaneous client connections
 
 The implementation is located in the pta-server directory of the forked repository.
 
@@ -52,7 +52,7 @@ Open a terminal in the repository's root directory, where pta-client.py is locat
 
 Start the server: 
 
-        **python .\pta-server\faveren-server.py**
+        python .\pta-server\faveren-server.py
 
 Expected output: **PTA listening on 127.0.0.1:11550**
 
@@ -89,15 +89,15 @@ Ensure that this directory contains pta-client.py.
 
 *Test with user1*
 
-        **python .\pta-client.py 127.0.0.1 11550 user1**
+        python .\pta-client.py 127.0.0.1 11550 user1
 
 *Test with user2*
 
-        **python .\pta-client.py 127.0.0.1 11550 user2**
+        python .\pta-client.py 127.0.0.1 11550 user2
 
 *Test with user3*
 
-        **python .\pta-client.py 127.0.0.1 11550 user3**
+        python .\pta-client.py 127.0.0.1 11550 user3
 
 The authorized usernames are read directly from: **pta-server/users.txt**
 
