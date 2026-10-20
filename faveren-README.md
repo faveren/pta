@@ -43,8 +43,8 @@ Click Code → Download ZIP, then extract the ZIP file.
 
 Alternatively, clone the repository using Git:
 
-git clone https://github.com/faveren/pta.git
-cd pta
+        git clone https://github.com/faveren/pta.git
+        cd pta
 
 ## Running the PTA Server
 
