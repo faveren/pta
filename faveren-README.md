@@ -6,7 +6,7 @@ This project implements a TCP-based file transfer server in Python, following th
 
 The server supports:
 
-        *a.* Client authentication (CUMP)
+        'a.' Client authentication (CUMP)
 
         *b.* Listing available files (LIST)
 
