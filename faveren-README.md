@@ -136,4 +136,4 @@ Because the PTA specification does not define an explicit request-framing mechan
 
 ## Stopping the Server
 
-To stop the server, return to the terminal where it is running and press:   ** Ctrl + C **
+To stop the server, return to the terminal where it is running and press:   **Ctrl + C**
